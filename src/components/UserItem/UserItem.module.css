@@ -29,11 +29,13 @@
 }
 
 .avatar {
+  height: 74px;
+  width: 74px;
   border-radius: 50%;
   position: absolute;
-  top: 0;
+  top: 9%;
   left: 50%;
-  transform: translate(-50);
+  transform: translate(-50%);
 }
 
 .circle {
@@ -45,6 +47,7 @@
 .line {
   position: absolute;
   width: 100%;
+  height: 8px;
   top: 42px;
 }
 
