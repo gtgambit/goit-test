@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import css from './UserItem.module.css';
 import circle from '../../img/cicle.png';
 import line from '../../img/line.png';
-import logo from '../../img/logo.svg';
+import logo from '../../img/logo.png';
 
 export const UserItem = ({
   avatar,
