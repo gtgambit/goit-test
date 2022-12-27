@@ -1,0 +1,89 @@
+.liItem {
+  margin: 0 auto;
+  width: 454px;
+  height: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-image: url('../../img/picture.png'),
+    linear-gradient(114.99deg, #5736a3 54.28%, #4b2a99 78.99%);
+  background-repeat: no-repeat;
+  background-position: 52px 34px, center;
+  box-shadow: -3px 8px 24px rgba(0, 0, 0, 0.23);
+  border-radius: 24px;
+}
+
+.logo {
+  width: 88px;
+  height: 26px;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.avatarWrap {
+  width: 100%;
+  margin-top: 209px;
+  position: relative;
+}
+
+.avatar {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50);
+}
+
+.circle {
+  position: relative;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.line {
+  position: absolute;
+  width: 100%;
+  top: 42px;
+}
+
+.userInfo {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #edb8ff;
+}
+
+.btn {
+  margin-top: 32px;
+  width: 226px;
+  height: 56px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background: #ebd8ff;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #373737;
+  cursor: pointer;
+  transition: box-shadow 0250ms ease 0s;
+  transition: transform 0250ms ease 0s;
+}
+
+.active {
+  composes: btn;
+  background: #5cd3a8;
+}
+
+.btn:hover {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.15);
+  transform: scale(1.02);
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "user": "Elon Reeve Musk",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "https://www.w3schools.com/w3images/avatar5.png"
+  },
+  {
+    "id": 2,
+    "user": "Elone Jack Musk",
+    "tweets": 888,
+    "followers": 200700,
+    "avatar": "https://www.w3schools.com/w3images/avatar4.png"
+  },
+  {
+    "id": 3,
+    "user": "Jack Gluke",
+    "tweets": 444,
+    "followers": 300600,
+    "avatar": "https://www.w3schools.com/w3images/avatar3.png"
+  },
+  {
+    "id": 4,
+    "user": "Jane Dou",
+    "tweets": 333,
+    "followers": 400700,
+    "avatar": "https://www.w3schools.com/w3images/avatar2.png"
+  }
+]
